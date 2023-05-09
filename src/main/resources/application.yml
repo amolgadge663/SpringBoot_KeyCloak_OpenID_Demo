@@ -15,3 +15,11 @@ spring:
 
     hibernate:
       ddlAuto: update
+
+
+keycloak:
+  realm: spring-boot-keycloak #Realm name
+  auth-server-url: http://localhost:8080/auth/
+  resource: amol #client ID
+  public-client: true
+  bearer-only: true
